@@ -152,7 +152,11 @@ Based in Sheffield, working with clients across the UK.</p>
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form name="contact" method="POST" data-netlify="true">
+								<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks/">
+									<input type="hidden" name="form-name" value="contact" />
+<p class="hidden">
+  <label>Don’t fill this out: <input name="bot-field" /></label>
+</p>
   <input type="hidden" name="form-name" value="contact" />
 									<div class="fields">
 										<div class="field half">
@@ -179,7 +183,7 @@ Based in Sheffield, working with clients across the UK.</p>
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="mailto:SERApeopleadvisory@gmail.com">SERApeopleadvisory@gmail.com</a>
+										<a href="mailto:hello@serapeople.com">hello@serapeople.com</a>
 									</div>
 								</section>
 								<section>
@@ -204,11 +208,7 @@ Based in Sheffield, working with clients across the UK.</p>
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
-							<ul class="icons">
-  <li><a href="https://www.linkedin.com/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-</ul>
-							<ul class="copyright">
-								<li>&copy; SERA People Advisory</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+				</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
@@ -227,6 +227,7 @@ Based in Sheffield, working with clients across the UK.</p>
 	</body>
 
 </html>
+
 
 
 
