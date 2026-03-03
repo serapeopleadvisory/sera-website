@@ -3958,4 +3958,12 @@ input, select, textarea {
 #contact-form {
   scroll-margin-top: 120px;
 }
+.tiles article {
+  position: relative;
+}
+.tiles article header {
+  position: relative;
+  z-index: 2;
+}
+
 
