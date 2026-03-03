@@ -3955,3 +3955,7 @@ input, select, textarea {
 .hidden {
   display: none;
 }
+#contact-form {
+  scroll-margin-top: 120px;
+}
+
